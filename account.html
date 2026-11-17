@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/nav.css"><link rel="stylesheet" href="css/account.css">
+<title>Account – LuxuryTrip</title></head>
+<body data-page="account">
+<div class="app page">
+  <header class="page-head prof">
+    <div class="avatar"></div>
+    <div><h1 id="name">Guest</h1><p id="email">Not logged in</p></div>
+    <button class="edit" aria-label="Edit">✎</button>
+  </header>
+  <main class="content">
+
+    <section class="guest-box" id="guest-box">
+      <p>Log in to see your balance, points and bookings.</p>
+      <div class="row"><a href="login.html" class="btn-gold sm">Log In</a><a href="signup.html" class="btn-line">Sign Up</a></div>
+    </section>
+
+    <section class="member" id="member-box" style="display:none">
+      <div class="tier"><span>👑 Gold Member</span><b id="points">0 pts</b></div>
+      <div class="bar"><i id="bar" style="width:0%"></i></div>
+      <p id="bal">Balance: $0.00</p>
+    </section>
+
+    <section class="card menu">
+      <a href="#"><span>👤</span>Personal Information<em>›</em></a>
+      <a href="#"><span>💳</span>Payment Methods<em>›</em></a>
+      <a href="bookings.html"><span>🧾</span>My Bookings<em>›</em></a>
+      <a href="#"><span>❤️</span>Saved Hotels<em>›</em></a>
+      <a href="messages.html"><span>💬</span>Support Chat<em>›</em></a>
+    </section>
+    <section class="card menu">
+      <a href="#"><span>🌐</span>Language<em>English ›</em></a>
+      <a href="#"><span>🔒</span>Privacy &amp; Security<em>›</em></a>
+    </section>
+    <button class="btn-line danger logout" id="logout" style="display:none">Log Out</button>
+  </main>
+</div>
+<script src="js/store.js"></script><script src="js/nav.js"></script><script src="js/account.js"></script>
+</body></html>

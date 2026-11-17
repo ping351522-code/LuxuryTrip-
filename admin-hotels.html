@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/admin.css">
+<title>Hotels – Admin</title></head>
+<body data-admin="hotels">
+<div class="app admin"><div class="admin-shell">
+  <main class="admin-main">
+    <div class="admin-top"><div><h1>Hotels</h1><p>Prices shown on the user-side home and hotel pages</p></div>
+      <button class="mini-btn gold" id="add">+ Add Hotel</button></div>
+    <section class="panel">
+      <table>
+        <thead><tr><th>Hotel</th><th>Location</th><th>Price / night</th><th>Rating</th><th></th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </section>
+  </main>
+</div></div>
+<script src="js/store.js"></script><script src="js/admin-guard.js"></script><script src="js/admin-nav.js"></script><script src="js/admin-hotels.js"></script>
+</body></html>
