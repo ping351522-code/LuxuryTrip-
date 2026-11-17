@@ -1,0 +1,11 @@
+/* history.css */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);text-align:center;padding:16px 4px}
+.stats b{display:block;font-size:19px;font-weight:700}
+.stats small{font-size:11.5px;color:var(--muted)}
+.year{font-size:17px;font-weight:700;margin:22px 4px 10px}
+.his{display:grid;grid-template-columns:70px 1fr;gap:12px;padding:12px;margin-bottom:10px;align-items:center}
+.his .pic{width:70px;height:70px;border-radius:14px;background:var(--img,none),var(--g,linear-gradient(135deg,#4d9ed1,#1a3a6e));background-size:cover;background-position:center}
+.his h3{font-size:14.5px;font-weight:600}
+.his p{font-size:12px;color:var(--muted);margin:3px 0}
+.his .stars{color:var(--gold-3);font-size:13px;letter-spacing:1px}
+.his .btn-line{grid-column:1 / -1;padding:8px}

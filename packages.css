@@ -1,0 +1,13 @@
+/* packages.css */
+.pkg{overflow:hidden;margin-bottom:14px}
+.pkg .pic{height:140px;position:relative;background:var(--img,none),var(--g);background-size:cover;background-position:center}
+.pkg .days{position:absolute;left:12px;top:12px;background:linear-gradient(180deg,var(--gold-2),var(--gold));color:var(--navy);font-weight:700;font-size:12px;padding:4px 12px;border-radius:12px}
+.pkg .body{padding:14px}
+.pkg h3{font-size:17px;font-weight:700}
+.pkg .loc{font-size:12.5px;color:var(--muted);margin-top:3px}
+.pkg .inc{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.pkg .inc span{font-size:11.5px;background:#eef0fa;color:var(--navy-2);padding:4px 10px;border-radius:10px}
+.pkg .row{display:flex;justify-content:space-between;align-items:center;margin-top:14px}
+.pkg .row small{display:block;font-size:11px;color:var(--muted)}
+.pkg .row b{font-size:22px}
+.pkg .btn-gold{padding:10px 24px;font-size:14px}
